@@ -22,7 +22,6 @@ function App() {
         quis! Aperiam assumenda optio, tenetur dolores cum placeat. Dolorem nemo
         ut omnis.
       </p>
-      {/* break-words break-all*/}
     </div>
   );
 }
