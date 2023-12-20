@@ -1,8 +1,10 @@
 function App() {
   return (
     <div>
-      <div className="w-16 h-16 bg-red-500" />
-      <div className="w-16 h-16 bg-green-500" />
+      <h1 className="mb-4">First Title</h1>
+      <h2 className="mb-default">Second Title</h2>
+      <h3 className="mb-2">Third Title</h3>
+      <p className="mb-1">Paragraph</p>
     </div>
   );
 }
