@@ -1,12 +1,7 @@
 function App() {
   return (
-    <div className=" Parent">
-      <div>Header</div>
-      <div className="flex items-baseline">
-        <div className="bg-sky-500 pt-2 pb-6">01</div>
-        <div className="bg-red-500 pt-8 pb-12">02</div>
-        <div className="bg-green-500 pt-12 pb-4">03</div>
-      </div>
+    <div className="h-screen text-white Parent bg-slate-900">
+      <button className="ring-offset-2 ring-4">Button C</button>
     </div>
   );
 }
