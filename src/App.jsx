@@ -1,10 +1,12 @@
 function App() {
   return (
-    <div>
-      <h1 className="mb-4">First Title</h1>
-      <h2 className="mb-default">Second Title</h2>
-      <h3 className="mb-2">Third Title</h3>
-      <p className="mb-1">Paragraph</p>
+    <div className=" Parent">
+      <div>Header</div>
+      <div className="flex items-baseline">
+        <div className="bg-sky-500 pt-2 pb-6">01</div>
+        <div className="bg-red-500 pt-8 pb-12">02</div>
+        <div className="bg-green-500 pt-12 pb-4">03</div>
+      </div>
     </div>
   );
 }
